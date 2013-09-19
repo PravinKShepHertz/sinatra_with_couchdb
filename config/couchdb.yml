@@ -1,8 +1,24 @@
 development: &development
+  # protocol: 'http'
+  # host: localhost
+  # port: 5984
+  # prefix: demo_db
+  # suffix: development
+  # username: 
+  # password:
   protocol: 'http'
-  host: localhost
-  port: 5984
-  prefix: sinatra
-  suffix: development
-  username: 
-  password: 
+  host: 54.213.93.154
+  port: 40711
+  prefix: demo_db
+  # suffix: development
+  username: vqa3wwxyggox6lqk
+  password: '4i6rglgvtvjzszjdbn69smzackkhohhf' 
+
+production:
+  protocol: 'http'
+  host: 54.213.93.154
+  port: 40711
+  prefix: demo_db
+  # suffix: development
+  username: vqa3wwxyggox6lqk
+  password: '4i6rglgvtvjzszjdbn69smzackkhohhf'
